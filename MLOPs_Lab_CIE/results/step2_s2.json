@@ -3,11 +3,11 @@
     "n_folds": 3,
     "total_trials": 5,
     "best_params": {
-        "n_estimators": 100,
-        "max_depth": 3,
+        "n_estimators": 50,
+        "max_depth": 2,
         "learning_rate": 0.01
     },
-    "best_mae": 4.523179555912926,
-    "best_cv_mae": 39.1839137388447,
+    "best_mae": 5.01092727615637,
+    "best_cv_mae": 4.329602624370923,
     "parent_run_name": "tuning-pathscan"
 }
