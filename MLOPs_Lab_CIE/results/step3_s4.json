@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/health",
+  "predict_endpoint": "/forecast",
+  "port": 9000,
+  "health_response": {
+    "alive": true,
+    "service": "PathScan report_turnaround_hours API"
+  },
+  "test_input": {
+    "sample_count": 26,
+    "test_complexity": 2,
+    "lab_technician_count": 4,
+    "is_urgent": 1
+  },
+  "prediction": 24.359720787732233
+}
