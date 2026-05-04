@@ -1,0 +1,22 @@
+{
+    "experiment_name": "pathscan-report-turnaround-hours",
+    "models": [
+        {
+            "name": "RandomForest",
+            "mae": 3.334499999999994,
+            "rmse": 3.9825127251522945,
+            "r2": 0.621325384251744,
+            "mape": 21.437273544910816
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 3.1987376614272103,
+            "rmse": 3.540933974413766,
+            "r2": 0.7006443173727994,
+            "mape": 21.48253274863882
+        }
+    ],
+    "best_model": "GradientBoosting",
+    "best_metric_name": "rmse",
+    "best_metric_value": 3.540933974413766
+}
